@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "タイムレコーダー自動打刻",
+  "version": "1.0",
+  "description": "出社時にタイムレコーダーを自動で打刻します",
+  "permissions": [
+    "https://www.e4628.jp/*",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
