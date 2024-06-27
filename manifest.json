@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "タイムレコーダー自動打刻",
   "version": "1.0",
   "description": "出社時にタイムレコーダーを自動で打刻します",
